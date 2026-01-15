@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FELIZ CUMPLEAÑOS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CONTENEDOR DE CORAZONES -->
+  <div id="hearts"></div>
+
+  <!-- CONTENEDOR PRINCIPAL -->
+  <div class="container">
+
+    <div class="photo polaroid left">
+      <img src="Fogata.jpg">
+    </div>
+
+    <div class="photo polaroid right">
+      <img src="Cesped.jpg">
+    </div>
+
+    <div class="title-box">
+      <h1 id="title">FELIZ CUMPLEAÑOS</h1>
+      <button id="btnNext" class="next-btn">SIGUIENTE</button>
+    </div>
+
+    <div class="photo polaroid bottom">
+      <img src="Escenario.jpg">
+    </div>
+
+</div>
+
+   <!-- ESCENA 2 - LIBRO -->
+<div id="scene2" class="scene hidden">
+
+  <div class="book">
+
+    <div class="book-header">
+        <h2>Para ti 💐</h2>
+    </div>
+
+    <div class="page active">
+      <p>
+        Feliz Cumpleaños amor, te deseo lo mejor, gracias por estar a mi lado.
+        Me haces muy feliz todos los días.
+        TE QUIERO💕
+      </p>
+        <img src="Guatemala.jpg" alt="Recuerdo especial">
+    </div>
+
+    <div class="page">
+      <p>
+        Te AMO más de lo que crees y significas demasiado para mí.
+        Esta web la hice solo para vos y para que veas cuanto te quiero💗. Gracias por existir
+      </p>
+        <img src="Nose.jpg" alt="Otro recuerdo">
+      </div>
+
+
+      <div class="page">
+  <div class="memory-list">
+
+    <div class="memory">
+      <p>Eres mi lugar seguro 💖</p>
+      <img src="foto1.jpg" alt="Recuerdo 1">
+    </div>
+
+    <div class="memory">
+      <p>Contigo todo es mejor ✨</p>
+      <img src="foto2.jpg" alt="Recuerdo 2">
+    </div>
+
+    <div class="memory">
+      <p>Gracias por existir 💕</p>
+      <img src="foto3.jpg" alt="Recuerdo 3">
+    </div>
+
+  </div>
+</div>
+
+      <div class="book-footer">
+        <button id="nextPage">Siguiente página</button>
+      </div>
+
+    </div>
+  </div>
+
+  <button id="nextPage" class="page-btn">Siguiente página</button>
+</div>
+
+
+<!-- ESCENA 3 - CONSTELACIÓN -->
+<div id="scene3" class="scene hidden">
+
+  <!-- FONDO DE ESTRELLAS -->
+  <div id="stars"></div>
+
+  <!-- CONSTELACIÓN -->
+  <svg
+    id="constellation"
+    viewBox="0 0 300 300"
+    xmlns="http://www.w3.org/2000/svg">
+
+    <!-- ESTRELLAS PRINCIPALES -->
+    <circle cx="150" cy="120"  r="3.5" class="key-star"/> 
+    <circle cx="100" cy="85"  r="3.5" class="key-star"/> 
+    <circle cx="60"  cy="110" r="3.5" class="key-star"/>
+    <circle cx="60"  cy="160" r="3.5" class="key-star"/>
+    <circle cx="150" cy="230" r="3.5" class="key-star"/> 
+    <circle cx="240" cy="160" r="3.5" class="key-star"/>
+    <circle cx="240" cy="110" r="3.5" class="key-star"/>
+    <circle cx="200" cy="85"  r="3.5" class="key-star"/>
+
+    <!-- ESTRELLAS PEQUEÑAS -->
+    <circle cx="130" cy="70"  r="2" class="extra-star"/>
+    <circle cx="110" cy="120" r="2" class="extra-star"/>
+    <circle cx="120" cy="165" r="2" class="extra-star"/>
+
+    <circle cx="170" cy="70"  r="2" class="extra-star"/>
+    <circle cx="190" cy="120" r="2" class="extra-star"/>
+    <circle cx="180" cy="165" r="2" class="extra-star"/>
+
+    <!-- LÍNEAS -->
+    <path
+      d="M150 120
+         L100 85
+         L60 110
+         L60 160
+         L150 230
+         L240 160
+         L240 110
+         L200 85
+         L150 120"
+      class="constellation-line"/>
+  </svg>
+
+</div>
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
